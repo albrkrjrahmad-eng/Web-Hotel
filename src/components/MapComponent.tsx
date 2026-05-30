@@ -91,7 +91,7 @@ export default function MapComponent({ hotels, selectedHotel, onHotelClick, cent
               <p className="rating">Rating: {hotel.rating}/5.0</p>
               <p className="text-xs text-gray-500 mt-1">{hotel.priceRange}</p>
               <a
-                href={`/hotel/${hotel.id}`}
+                href={`/Web-Hotel/hotel/${hotel.id}`}
                 className="inline-block mt-2 text-xs bg-blue-600 text-white px-3 py-1 rounded-full hover:bg-blue-700 transition-colors"
               >
                 Lihat Detail
